@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebUI Test Suite" duration-ms="0" started-at="2021-02-22T02:57:59Z" finished-at="2021-02-22T02:57:59Z">
+    <groups>
+    </groups>
+  </suite> <!-- WebUI Test Suite -->
+  <suite name="zhanghua Test Suite" duration-ms="0" started-at="2021-02-22T02:57:59Z" finished-at="2021-02-22T02:57:59Z">
+    <groups>
+    </groups>
+  </suite> <!-- zhanghua Test Suite -->
+  <suite name="liming Test Suite" duration-ms="40110" started-at="2021-02-22T02:56:58Z" finished-at="2021-02-22T02:57:39Z">
+    <groups>
+    </groups>
+    <test name="abcnull测试" duration-ms="35106" started-at="2021-02-22T02:56:58Z" finished-at="2021-02-22T02:57:34Z">
+      <class name="com.abcnull.testcase.AbcnullTest">
+        <test-method status="FAIL" signature="beforeSuite(java.lang.String)[pri:0, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="beforeSuite" is-config="true" duration-ms="30" started-at="2021-02-22T02:56:48Z" finished-at="2021-02-22T02:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/test/resources/config/config.properties]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[src/test/resources/config/config.properties (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: src/test/resources/config/config.properties (No such file or directory)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at com.abcnull.util.PropertiesReader.readProperties(PropertiesReader.java:37)
+at com.abcnull.basetest.BaseTest.beforeSuite(BaseTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="beforeTest" is-config="true" duration-ms="77" started-at="2021-02-22T02:56:58Z" finished-at="2021-02-22T02:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/driver/null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/driver/null
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at com.abcnull.basetest.ChromeDriverHandler.startBrowser(ChromeDriverHandler.java:71)
+at com.abcnull.basetest.HeadHandler.startBrowser(HeadHandler.java:23)
+at com.abcnull.basetest.DriverHandler.start(DriverHandler.java:35)
+at com.abcnull.basetest.BaseDriver.startBrowser(BaseDriver.java:93)
+at com.abcnull.basetest.BaseTest.beforeTest(BaseTest.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="beforeClass" is-config="true" duration-ms="5" started-at="2021-02-22T02:57:04Z" finished-at="2021-02-22T02:57:04Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.Objects.requireNonNull(Objects.java:203)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at com.abcnull.basepage.BaseBrowser.<init>(BaseBrowser.java:70)
+at com.abcnull.basepage.BasePage.<init>(BasePage.java:32)
+at com.abcnull.pageobject.page.LoginPage.<init>(LoginPage.java:33)
+at com.abcnull.basetest.BaseTest.beforeClass(BaseTest.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="testSearch()[pri:100010001, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="testSearch" duration-ms="0" started-at="2021-02-22T02:57:14Z" description="abcnull页面_搜索测试" finished-at="2021-02-22T02:57:14Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[src/test/resources/config/config.properties (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: src/test/resources/config/config.properties (No such file or directory)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at com.abcnull.util.PropertiesReader.readProperties(PropertiesReader.java:37)
+at com.abcnull.basetest.BaseTest.beforeSuite(BaseTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-02-22T02:57:24Z" finished-at="2021-02-22T02:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="FAIL" signature="afterTest()[pri:0, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-02-22T02:57:24Z" finished-at="2021-02-22T02:57:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.abcnull.basetest.BaseDriver.closeBrowser(BaseDriver.java:137)
+at com.abcnull.basetest.BaseTest.afterTest(BaseTest.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.abcnull.testcase.AbcnullTest@7d322cad]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-02-22T02:57:49Z" finished-at="2021-02-22T02:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.abcnull.testcase.AbcnullTest -->
+    </test> <!-- abcnull测试 -->
+    <test name="百度测试" duration-ms="40110" started-at="2021-02-22T02:56:58Z" finished-at="2021-02-22T02:57:39Z">
+      <class name="com.abcnull.testcase.BaiduTest">
+        <test-method status="FAIL" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.abcnull.testcase.BaiduTest@3e0e1046]" name="beforeTest" is-config="true" duration-ms="77" started-at="2021-02-22T02:56:58Z" finished-at="2021-02-22T02:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/driver/null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/driver/null
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at com.abcnull.basetest.ChromeDriverHandler.startBrowser(ChromeDriverHandler.java:71)
+at com.abcnull.basetest.HeadHandler.startBrowser(HeadHandler.java:23)
+at com.abcnull.basetest.DriverHandler.start(DriverHandler.java:35)
+at com.abcnull.basetest.BaseDriver.startBrowser(BaseDriver.java:93)
+at com.abcnull.basetest.BaseTest.beforeTest(BaseTest.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.abcnull.testcase.BaiduTest@3e0e1046]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-22T02:57:09Z" finished-at="2021-02-22T02:57:09Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.Objects.requireNonNull(Objects.java:203)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at com.abcnull.basepage.BaseBrowser.<init>(BaseBrowser.java:70)
+at com.abcnull.basepage.BasePage.<init>(BasePage.java:32)
+at com.abcnull.pageobject.page.LoginPage.<init>(LoginPage.java:33)
+at com.abcnull.basetest.BaseTest.beforeClass(BaseTest.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="testSearch()[pri:100000001, instance:com.abcnull.testcase.BaiduTest@3e0e1046]" name="testSearch" duration-ms="0" started-at="2021-02-22T02:57:19Z" description="百度首页_搜索测试" finished-at="2021-02-22T02:57:19Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.Objects.requireNonNull(Objects.java:203)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at com.abcnull.basepage.BaseBrowser.<init>(BaseBrowser.java:70)
+at com.abcnull.basepage.BasePage.<init>(BasePage.java:32)
+at com.abcnull.pageobject.page.LoginPage.<init>(LoginPage.java:33)
+at com.abcnull.basetest.BaseTest.beforeClass(BaseTest.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="FAIL" signature="afterTest()[pri:0, instance:com.abcnull.testcase.BaiduTest@3e0e1046]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-02-22T02:57:29Z" finished-at="2021-02-22T02:57:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.abcnull.basetest.BaseDriver.closeBrowser(BaseDriver.java:137)
+at com.abcnull.basetest.BaseTest.afterTest(BaseTest.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.abcnull.testcase.BaiduTest@3e0e1046]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-22T02:57:29Z" finished-at="2021-02-22T02:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.abcnull.testcase.BaiduTest -->
+    </test> <!-- 百度测试 -->
+  </suite> <!-- liming Test Suite -->
+</testng-results>
