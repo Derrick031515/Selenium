@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [liming Test Suite]" parallel="tests">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [liming Test Suite]" parallel="tests">
   <parameter name="browserName" value="chrome"/>
   <parameter name="propertiesPath" value="src/test/resources/config/config.properties"/>
   <parameter name="terminal" value="pc"/>
   <parameter name="deviceName" value="desktop"/>
-  <parameter name="param1" value=""/>
-  <parameter name="param2" value=""/>
+  <parameter name="param1" value="${param1}"/>
+  <parameter name="param2" value="${param2}"/>
   <listeners>
     <listener class-name="com.abcnull.listener.RePrioritizingListener"/>
     <listener class-name="com.abcnull.listener.TestLogListener"/>
     <listener class-name="com.abcnull.listener.TestReportListener"/>
     <listener class-name="com.abcnull.listener.ExtentTestReporterListener"/>
   </listeners>
-  <test thread-count="2" verbose="0" name="abcnull测试(failed)" parallel="tests">
-    <classes>
-      <class name="com.abcnull.testcase.AbcnullTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="testSearch"/>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.abcnull.testcase.AbcnullTest -->
-    </classes>
-  </test> <!-- abcnull测试(failed) -->
-  <test thread-count="2" verbose="0" name="百度测试(failed)" parallel="tests">
+  <test thread-count="1" verbose="0" name="百度测试(failed)" parallel="tests">
     <classes>
       <class name="com.abcnull.testcase.BaiduTest">
         <methods>

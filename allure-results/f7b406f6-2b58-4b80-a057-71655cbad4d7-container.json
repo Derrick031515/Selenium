@@ -1,0 +1,1 @@
+{"uuid":"f7b406f6-2b58-4b80-a057-71655cbad4d7","name":"com.abcnull.testcase.AbcnullTest","children":["bab7d0cd-037c-4d69-96a4-c0739103b1d0"],"befores":[],"afters":[{"name":"afterClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1614130847745,"stop":1614130847745}],"links":[],"start":1614130827544,"stop":1614130857794}
