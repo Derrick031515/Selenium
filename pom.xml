@@ -36,8 +36,8 @@
         <surefire-plugin-version>2.22.1</surefire-plugin-version>
         <aspectj-version>1.8.10</aspectj-version>
         <!-- jenkins 参数化构建 -->
-        <!--<xml.file>${env.xmlFileName}</xml.file>
-        <param1>${env.param1}</param1>
+        <xml.file>./testng.xml</xml.file>
+        <!--<param1>${env.param1}</param1>
         <param2>${env.param2}</param2>
         <param3>${env.param3}</param3>-->
     </properties>
@@ -170,9 +170,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-                    <skipTests>true</skipTests>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
+
             <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -180,7 +183,7 @@
                 <configuration>
                     &lt;!&ndash; allure 2 配置 &ndash;&gt;
                     <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj-version}/aspectjweaver-${aspectj-version}.jar"
+                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj-version}/aspectjweaver-${aspectj-version}.jar"
                     </argLine>
                     &lt;!&ndash; 指定 xml 文件 &ndash;&gt;
                     <suiteXmlFiles>
@@ -197,16 +200,16 @@
                         &lt;!&ndash; jenkins 参数三 &ndash;&gt;
                         <param3>${param3}</param3>
                     </systemPropertyVariables>&ndash;&gt;
-                    &lt;!&ndash;<argLine>-Dfile.encoding=UTF-8</argLine>&ndash;&gt;
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
                 </configuration>
-                &lt;!&ndash;<dependencies>
+                <dependencies>
                     &lt;!&ndash; allure 2 配置依赖 &ndash;&gt;
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj-version}</version>
                     </dependency>
-                </dependencies>&ndash;&gt;
+                </dependencies>
             </plugin>-->
         </plugins>
     </build>

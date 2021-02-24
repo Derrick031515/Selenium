@@ -152,3 +152,39 @@ Session ID: e018f1799f0da71d0267c17f7e87391e========
 2021-02-24 10:26:10.715 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
 2021-02-24 10:26:10.718 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
 2021-02-24 10:26:16.064 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 10:49:45.089 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-24 10:49:45.098 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-24 10:49:45.098 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-24 10:49:45.106 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-24 10:49:45.109 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-24 10:50:00.319 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-24 10:50:10.418 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-24 10:50:10.423 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-24 10:50:15.765 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 10:53:06.130 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-24 10:53:06.137 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-24 10:53:06.137 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-24 10:53:06.145 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-24 10:53:06.149 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-24 10:53:21.345 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-24 10:53:31.425 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-24 10:53:31.428 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-24 10:53:36.794 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 11:05:36.896 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-24 11:05:36.907 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-24 11:05:36.907 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-24 11:05:36.911 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-24 11:05:36.918 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-24 11:05:47.095 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-24 11:06:02.181 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-24 11:06:02.205 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-24 11:06:07.539 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 11:11:09.188 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-24 11:11:09.194 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-24 11:11:09.194 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-24 11:11:09.198 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-24 11:11:09.206 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-24 11:11:19.378 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-24 11:11:34.457 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-24 11:11:39.474 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 11:11:39.548 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
