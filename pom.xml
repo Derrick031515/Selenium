@@ -211,6 +211,22 @@
                     </dependency>
                 </dependencies>
             </plugin>-->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <finalName>content</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>  <!-- 如果只想有finalName,不需要连接release.xml中的id -->
+                    <tarLongFileMode>posix</tarLongFileMode>  <!-- 解决tar大小的限制问题 -->
+                    <descriptors>
+                        <descriptor>release.xml</descriptor>
+                    </descriptors>
+                    <outputDirectory>../output</outputDirectory>
+                    <attach>false</attach>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>

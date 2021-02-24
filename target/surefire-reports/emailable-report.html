@@ -10,56 +10,25 @@
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">WebUI Test Suite</th></tr>
 <tr><th colspan="7">liming Test Suite</th></tr>
-<tr><td><a href="#t0">百度测试</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">20,229</td><td></td><td></td></tr>
+<tr><td><a href="#t0">百度测试</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,148</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">WebUI Test Suite</th></tr></tbody><tbody><tr><th colspan="4">liming Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">百度测试 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.abcnull.testcase.BaiduTest</td><td><a href="#m0">afterTest</a></td><td rowspan="1">1614146587543</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">beforeTest</a></td><td rowspan="1">1614146572328</td><td rowspan="1">74</td></tr><tr><th colspan="4">百度测试 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.abcnull.testcase.BaiduTest</td><td><a href="#m2">beforeClass</a></td><td rowspan="1">1614146582526</td><td rowspan="1">0</td></tr><tr><th colspan="4">百度测试 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.abcnull.testcase.BaiduTest</td><td><a href="#m3">testSearch</a></td><td rowspan="1">1614146582531</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">WebUI Test Suite</th></tr></tbody><tbody><tr><th colspan="4">liming Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">百度测试 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.abcnull.testcase.BaiduTest</td><td><a href="#m0">testSearch</a></td><td rowspan="1">1614167646295</td><td rowspan="1">21269</td></tr></tbody>
 </table>
-<h2>百度测试</h2><h3 id="m0">com.abcnull.testcase.BaiduTest#afterTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.abcnull.basetest.BaseDriver.closeBrowser(BaseDriver.java:137)
-	at com.abcnull.basetest.BaseTest.afterTest(BaseTest.java:114)
+<h2>百度测试</h2><h3 id="m0">com.abcnull.testcase.BaiduTest#testSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Hello world&quot;. Current title: &quot;abcnulls_百度搜索&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Derrick.local&apos;, ip: &apos;fe80:0:0:0:18f2:8cc:bdce:a784%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:50670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8452c38d999abbd813ae8fef4c7f0932
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.abcnull.basepage.BasePage.ifTitleContains(BasePage.java:86)
+	at com.abcnull.pageobject.page.BaiduPage.search(BaiduPage.java:68)
+	at com.abcnull.testcase.BaiduTest.testSearch(BaiduTest.java:34)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.abcnull.testcase.BaiduTest#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>chrome</td><td>pc</td><td>desktop</td><td>null</td><td>4444</td><td>null</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/drivers/root/chrome_driver/chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at com.abcnull.basetest.ChromeDriverHandler.startBrowser(ChromeDriverHandler.java:71)
-	at com.abcnull.basetest.HeadHandler.startBrowser(HeadHandler.java:23)
-	at com.abcnull.basetest.DriverHandler.start(DriverHandler.java:35)
-	at com.abcnull.basetest.BaseDriver.startBrowser(BaseDriver.java:93)
-	at com.abcnull.basetest.BaseTest.beforeTest(BaseTest.java:79)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.abcnull.testcase.BaiduTest#beforeClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.abcnull.testcase.BaiduTest#testSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/drivers/root/chrome_driver/chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at com.abcnull.basetest.ChromeDriverHandler.startBrowser(ChromeDriverHandler.java:71)
-	at com.abcnull.basetest.HeadHandler.startBrowser(HeadHandler.java:23)
-	at com.abcnull.basetest.DriverHandler.start(DriverHandler.java:35)
-	at com.abcnull.basetest.BaseDriver.startBrowser(BaseDriver.java:93)
-	at com.abcnull.basetest.BaseTest.beforeTest(BaseTest.java:79)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

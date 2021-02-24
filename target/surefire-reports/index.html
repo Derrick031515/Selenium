@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites</span>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-liming_Test_Suite">
-              <span class="suite-name border-skipped">liming Test Suite</span>
+              <span class="suite-name border-failed">liming Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-liming_Test_Suite" class="hide-methods skipped suite-liming_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-liming_Test_Suite -->
-                      <a href="#" panel-name="suite-liming_Test_Suite" class="show-methods skipped suite-liming_Test_Suite"> (show)</a> <!-- show-methods skipped suite-liming_Test_Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-liming_Test_Suite" class="hide-methods failed suite-liming_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-liming_Test_Suite -->
+                      <a href="#" panel-name="suite-liming_Test_Suite" class="show-methods failed suite-liming_Test_Suite"> (show)</a> <!-- show-methods failed suite-liming_Test_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-liming_Test_Suite">
+                    <div class="method-list-content failed suite-liming_Test_Suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-liming_Test_Suite" title="com.abcnull.testcase.BaiduTest" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-liming_Test_Suite -->
+                    </div> <!-- method-list-content failed suite-liming_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,9 +119,9 @@
         <div panel-name="suite-WebUI_Test_Suite" class="panel WebUI_Test_Suite">
         </div> <!-- panel WebUI_Test_Suite -->
         <div panel-name="suite-liming_Test_Suite" class="panel liming_Test_Suite">
-          <div class="suite-liming_Test_Suite-class-skipped">
+          <div class="suite-liming_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.abcnull.testcase.BaiduTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,32 +130,29 @@
                   <a name="testSearch">
                   </a> <!-- testSearch -->
                   <span class="method-name">testSearch</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/drivers/root/chrome_driver/chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at com.abcnull.basetest.ChromeDriverHandler.startBrowser(ChromeDriverHandler.java:71)
-	at com.abcnull.basetest.HeadHandler.startBrowser(HeadHandler.java:23)
-	at com.abcnull.basetest.DriverHandler.start(DriverHandler.java:35)
-	at com.abcnull.basetest.BaseDriver.startBrowser(BaseDriver.java:93)
-	at com.abcnull.basetest.BaseTest.beforeTest(BaseTest.java:79)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Hello world&quot;. Current title: &quot;abcnulls_百度搜索&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Derrick.local&apos;, ip: &apos;fe80:0:0:0:18f2:8cc:bdce:a784%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:50670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8452c38d999abbd813ae8fef4c7f0932
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.abcnull.basepage.BasePage.ifTitleContains(BasePage.java:86)
+	at com.abcnull.pageobject.page.BaiduPage.search(BaiduPage.java:68)
+	at com.abcnull.testcase.BaiduTest.testSearch(BaiduTest.java:34)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 15 stack frames
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (百度首页_搜索测试)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-liming_Test_Suite-class-skipped -->
+          </div> <!-- suite-liming_Test_Suite-class-failed -->
         </div> <!-- panel liming_Test_Suite -->
         <div panel-name="test-xml-WebUI_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -296,12 +293,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSearch')
 data.setCell(0, 2, 'com.abcnull.testcase.BaiduTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 21269);
 window.suiteTableData['liming_Test_Suite']= { tableData: data, tableDiv: 'times-div-liming_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-liming_Test_Suite">
               </div> <!-- times-div-liming_Test_Suite -->
             </div> <!-- times-div -->
@@ -354,29 +351,31 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome, pc, desktop, , 4444, null)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1965 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">beforeTest(chrome, pc, desktop, null, 4444, null)</span>
-                <span class="method-start">44 ms</span>
-              </div> <!-- configuration-test before -->
+                <span class="method-name">testSearch</span>
+                <span class="method-start">1971 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">15257 ms</span>
+                <span class="method-start">24040 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">afterTest</span>
-                <span class="method-start">15259 ms</span>
+                <span class="method-start">24042 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">25342 ms</span>
+                <span class="method-start">32220 ms</span>
               </div> <!-- configuration-suite after -->
-              <div class="test-method">
-                <span class="method-name">testSearch</span>
-                <span class="method-start">-1614146572284 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
