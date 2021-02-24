@@ -245,3 +245,8 @@ Session ID: 3fa1c0c92bcec614897be3927a1607e7========
 2021-02-24 13:06:07.179 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
 2021-02-24 13:06:07.182 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
 2021-02-24 13:06:07.245 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-24 14:02:52.311 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-24 14:02:52.319 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-24 14:02:52.319 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-24 14:02:52.323 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-24 14:02:52.330 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
