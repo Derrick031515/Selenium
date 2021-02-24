@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 36.978 s <<< FAILURE! - in TestSuite
-beforeTest(com.abcnull.testcase.BaiduTest)  Time elapsed: 16.273 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver is not executable: /Derrick/SZ/selenium_hupo/target/test-classes/drivers/chromedriver
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 36.798 s <<< FAILURE! - in TestSuite
+beforeTest(com.abcnull.testcase.BaiduTest)  Time elapsed: 16.25 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Derrick/SZ/selenium_hupo/target/test-classes/drivers/root/chrome_driver/chromedriver
 
-afterTest(com.abcnull.testcase.BaiduTest)  Time elapsed: 26.309 s  <<< FAILURE!
+afterTest(com.abcnull.testcase.BaiduTest)  Time elapsed: 26.279 s  <<< FAILURE!
 java.lang.NullPointerException
 

@@ -250,3 +250,28 @@ Session ID: 3fa1c0c92bcec614897be3927a1607e7========
 2021-02-24 14:02:52.319 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
 2021-02-24 14:02:52.323 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
 2021-02-24 14:02:52.330 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-24 14:03:02.531 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-24 14:03:17.615 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-24 14:03:22.676 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 14:03:22.736 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-24 14:18:48.148 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-24 14:18:48.160 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-24 14:18:48.160 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-24 14:18:48.169 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-24 14:18:48.173 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-24 14:18:50.929 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-02-24 14:19:00.993 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
+2021-02-24 14:19:01.010 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
+2021-02-24 14:19:01.684 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
+2021-02-24 14:19:12.301 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b8bf0a61e8c8f5d7f7198cf288fd4d3========
+2021-02-24 14:19:12.303 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
+2021-02-24 14:19:16.249 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-02-24 14:19:16.260 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-24 14:19:16.264 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-24 14:19:16.337 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
