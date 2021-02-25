@@ -40,8 +40,8 @@ public class ChromeDriverHandler extends DriverHandler {
         /* 驱动配置进环境变量 */
         // 驱动根路径 /target/test-classes/driver
 //        String driverParentPath = this.getClass().getResource("/").getPath() + "drivers" + File.separator;
-//        String driverParentPath = "src/test/resources/drivers" + File.separator;
-        String driverParentPath = "/root/chrome_driver" + File.separator;
+        String driverParentPath = "src/test/resources/drivers" + File.separator;
+
         // chrome 驱动路径
         String chromeDriverPath = driverParentPath + PropertiesReader.getKey("driver.chromeDriver");
         // 系统变量设置谷歌驱动
