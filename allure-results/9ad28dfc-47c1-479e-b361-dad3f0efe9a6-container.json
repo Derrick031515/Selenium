@@ -1,0 +1,1 @@
+{"uuid":"9ad28dfc-47c1-479e-b361-dad3f0efe9a6","name":"com.abcnull.testcase.BaiduTest","children":["25ee881c-4658-4e7a-8ae5-5c74afb45772"],"befores":[],"afters":[{"name":"afterClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1614220631285,"stop":1614220631286}],"links":[],"start":1614220616078,"stop":1614220646350}

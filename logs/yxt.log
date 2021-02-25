@@ -1,298 +1,74 @@
-2021-02-24 09:18:00.143 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:18:00.158 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:18:00.159 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:18:00.163 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 09:18:00.170 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:18:02.423 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 09:18:02.436 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 09:18:12.497 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 09:18:13.062 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 09:18:23.721 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:60740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 957ffa231b2d06a20a5e8fa8f230e242========
-2021-02-24 09:18:23.722 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 09:18:27.617 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 09:18:32.638 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 09:18:37.700 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 09:18:37.757 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 09:25:06.539 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:25:06.547 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:25:06.547 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:25:06.555 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 09:25:06.558 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:25:08.479 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 09:25:18.536 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 09:25:18.548 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 09:25:19.218 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 09:25:29.825 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:61071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: eb5be2f438b34b7cd6f54b468fef908d========
-2021-02-24 09:25:29.826 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 09:25:33.646 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 09:25:38.681 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 09:25:43.696 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 09:25:43.767 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 09:27:06.478 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:27:06.486 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:27:06.486 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:27:06.490 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 09:27:06.498 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:27:08.333 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 09:27:08.346 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 09:27:18.398 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 09:27:19.040 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 09:27:29.551 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:61210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 22101eb38be4da259ddbefad3ce91e2c========
-2021-02-24 09:27:29.552 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 09:27:33.436 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 09:27:38.458 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 09:27:38.474 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 09:27:43.818 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 09:29:50.472 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:29:50.480 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:29:50.480 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:29:50.484 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 09:29:50.491 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:29:52.441 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 09:29:52.453 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 09:30:02.504 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 09:30:03.151 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 09:30:13.771 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:61412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e018f1799f0da71d0267c17f7e87391e========
-2021-02-24 09:30:13.772 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 09:30:17.705 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 09:30:22.728 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 09:30:22.741 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 09:30:22.794 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 09:31:33.615 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:31:33.620 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:31:33.621 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:31:33.624 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 09:31:33.631 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:31:43.806 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 09:31:58.889 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 09:31:58.917 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 09:32:04.012 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 09:36:51.369 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:36:51.375 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:36:51.375 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:36:51.384 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 09:36:51.387 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:37:06.575 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 09:37:16.653 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 09:37:21.671 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 09:37:21.999 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 09:38:27.607 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:38:27.613 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:38:27.613 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:38:27.621 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:40:27.533 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:40:27.539 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:40:27.540 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:40:27.547 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:41:38.088 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:41:38.095 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:41:38.095 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:41:38.103 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 09:57:23.768 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 09:57:23.774 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 09:57:23.774 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 09:57:23.781 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:20:08.192 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 10:20:08.199 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 10:20:08.199 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 10:20:08.207 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 10:20:08.210 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:20:23.411 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 10:20:33.459 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 10:20:33.462 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 10:20:38.834 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 10:22:09.896 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 10:22:09.907 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 10:22:09.908 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 10:22:09.918 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 10:22:09.924 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:22:25.258 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 10:22:35.313 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 10:22:35.345 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 10:22:40.459 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 10:24:43.678 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 10:24:43.689 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 10:24:43.690 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 10:24:43.695 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 10:24:43.705 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:24:54.020 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 10:25:09.076 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 10:25:09.090 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 10:25:09.215 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 10:25:45.391 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 10:25:45.398 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 10:25:45.399 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 10:25:45.408 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 10:25:45.411 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:26:00.635 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 10:26:10.715 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 10:26:10.718 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 10:26:16.064 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 10:49:45.089 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 10:49:45.098 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 10:49:45.098 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 10:49:45.106 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 10:49:45.109 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:50:00.319 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 10:50:10.418 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 10:50:10.423 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 10:50:15.765 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 10:53:06.130 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 10:53:06.137 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 10:53:06.137 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 10:53:06.145 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 10:53:06.149 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 10:53:21.345 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 10:53:31.425 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 10:53:31.428 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 10:53:36.794 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 11:05:36.896 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 11:05:36.907 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 11:05:36.907 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 11:05:36.911 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 11:05:36.918 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 11:05:47.095 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 11:06:02.181 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 11:06:02.205 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 11:06:07.539 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 11:11:09.188 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 11:11:09.194 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 11:11:09.194 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 11:11:09.198 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 11:11:09.206 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 11:11:19.378 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 11:11:34.457 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 11:11:39.474 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 11:11:39.548 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 13:01:37.237 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 13:01:37.244 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 13:01:37.244 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 13:01:37.255 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 13:01:37.259 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 13:01:52.492 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 13:01:57.516 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 13:01:57.520 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 13:01:57.599 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 13:02:52.811 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 13:02:52.817 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 13:02:52.818 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 13:02:52.832 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 13:02:52.837 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 13:03:08.039 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 13:03:13.068 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 13:03:13.074 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 13:03:13.154 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 13:03:45.180 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 13:03:45.187 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 13:03:45.188 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 13:03:45.191 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 13:03:45.199 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 13:03:55.426 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 13:04:10.484 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 13:04:15.584 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 13:04:15.646 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 13:04:49.110 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 13:04:49.118 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 13:04:49.119 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 13:04:49.128 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 13:04:49.131 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 13:05:04.340 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 13:05:09.363 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 13:05:09.367 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 13:05:09.443 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 13:05:38.956 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 13:05:38.962 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 13:05:38.962 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 13:05:38.971 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 13:05:38.974 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 13:05:41.779 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 13:05:51.832 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 13:05:51.846 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 13:05:52.542 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 13:06:03.247 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:58308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fa1c0c92bcec614897be3927a1607e7========
-2021-02-24 13:06:03.249 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 13:06:07.166 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 13:06:07.179 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 13:06:07.182 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 13:06:07.245 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 14:02:52.311 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 14:02:52.319 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 14:02:52.319 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 14:02:52.323 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 14:02:52.330 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 14:03:02.531 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
-2021-02-24 14:03:17.615 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 14:03:22.676 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 14:03:22.736 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 14:18:48.148 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 14:18:48.160 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 14:18:48.160 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 14:18:48.169 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 14:18:48.173 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 14:18:50.929 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 14:19:00.993 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 14:19:01.010 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 14:19:01.684 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 14:19:12.301 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:cc:bd44:b3b9:1f7a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:62622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b8bf0a61e8c8f5d7f7198cf288fd4d3========
-2021-02-24 14:19:12.303 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 14:19:16.249 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 14:19:16.260 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 14:19:16.264 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 14:19:16.337 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
-2021-02-24 19:54:04.348 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
-2021-02-24 19:54:04.354 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
-2021-02-24 19:54:04.354 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
-2021-02-24 19:54:04.358 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
-2021-02-24 19:54:04.365 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
-2021-02-24 19:54:06.282 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
-2021-02-24 19:54:06.295 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
-2021-02-24 19:54:16.352 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
-2021-02-24 19:54:17.051 [TestNG-tests-1-52] INFO  com.abcnull.pageobject.page.BaiduPage.search - 搜索
-2021-02-24 19:54:27.565 [TestNG-tests-1-59] ERROR com.abcnull.listener.TestLogListener.onTestFailure - ========com.abcnull.testcase.BaiduTest.testSearch测试失败,失败原因如下：
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Hello world". Current title: "abcnulls_百度搜索" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Derrick.local', ip: 'fe80:0:0:0:18f2:8cc:bdce:a784%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/1y/pp3cf5693d3...}, goog:chromeOptions: {debuggerAddress: localhost:50670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8452c38d999abbd813ae8fef4c7f0932========
-2021-02-24 19:54:27.567 [TestNG-tests-1-37] INFO  com.abcnull.util.ScreenshotUtil.capture - 开始截图
-2021-02-24 19:54:31.506 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
-2021-02-24 19:54:36.534 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
-2021-02-24 19:54:41.591 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
-2021-02-24 19:54:41.642 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 10:25:09.319 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 10:25:09.337 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 10:25:09.337 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 10:25:09.341 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-25 10:25:09.349 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 10:25:19.550 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-25 10:25:34.601 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-25 10:25:39.642 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-25 10:25:39.802 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 10:28:25.543 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 10:28:25.549 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 10:28:25.549 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 10:28:25.553 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-25 10:28:25.560 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 10:28:35.728 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-25 10:28:50.777 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-25 10:28:55.816 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-25 10:28:55.903 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 10:30:44.202 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 10:30:44.208 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 10:30:44.208 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 10:30:44.216 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-25 10:30:44.219 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 10:30:46.235 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-02-25 10:30:56.299 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
+2021-02-25 10:30:56.315 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
+2021-02-25 10:30:56.981 [TestNG-tests-1-48] INFO  com.abcnull.listener.TestLogListener.onTestSuccess - ========com.abcnull.testcase.BaiduTest.testSearch测试通过========
+2021-02-25 10:31:00.137 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-02-25 10:31:05.162 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-25 10:31:10.174 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-25 10:31:10.261 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 10:35:50.823 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 10:35:50.833 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 10:35:50.833 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 10:35:50.844 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-25 10:35:50.850 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 10:36:06.152 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-25 10:36:16.199 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-25 10:36:16.219 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-25 10:36:21.376 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 10:36:56.067 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 10:36:56.073 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 10:36:56.073 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 10:36:56.081 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 10:44:40.178 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 10:44:40.187 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 10:44:40.187 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 10:44:40.195 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 11:19:29.518 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 11:19:29.526 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 11:19:29.526 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 11:19:29.532 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-25 11:19:29.542 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 11:19:31.309 [TestNG-tests-1-107] INFO  com.abcnull.basetest.BaseDriver.startBrowser - 浏览器：chrome 成功启动！
+2021-02-25 11:19:31.319 [TestNG-tests-1-37] INFO  com.abcnull.listener.TestLogListener.onTestStart - ========com.abcnull.testcase.BaiduTest.testSearch测试开始========
+2021-02-25 11:19:41.370 [TestNG-tests-1-42] INFO  com.abcnull.pageobject.page.BaiduPage.enterPage - 跳转进入百度页面
+2021-02-25 11:19:41.881 [TestNG-tests-1-48] INFO  com.abcnull.listener.TestLogListener.onTestSuccess - ========com.abcnull.testcase.BaiduTest.testSearch测试通过========
+2021-02-25 11:19:45.123 [TestNG-tests-1-143] INFO  com.abcnull.basetest.BaseDriver.closeBrowser - chrome浏览器已成功关闭！
+2021-02-25 11:19:50.135 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-25 11:19:55.163 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-25 11:19:55.234 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 11:38:38.138 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 11:38:38.144 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 11:38:38.144 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 11:38:38.149 [TestNG-tests-1-26] INFO  com.abcnull.listener.TestLogListener.onStart - ====================百度测试开始====================
+2021-02-25 11:38:38.156 [TestNG-tests-1-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
+2021-02-25 11:38:48.333 [TestNG-tests-1-72] INFO  com.abcnull.listener.TestLogListener.onTestSkipped - ========com.abcnull.testcase.BaiduTest.testSearch跳过测试========
+2021-02-25 11:39:03.380 [TestNG-tests-1-83] INFO  com.abcnull.listener.TestLogListener.onFinish - ====================百度测试结束====================
+2021-02-25 11:39:08.421 [main-98] INFO  com.abcnull.listener.TestReportListener.generateReport - 开始产生 BeautifulReport 测试报告
+2021-02-25 11:39:08.509 [main-53] INFO  com.abcnull.listener.ExtentTestReporterListener.generateReport - 开始产生 extentreports 测试报告
+2021-02-25 11:58:36.274 [main-36] INFO  com.abcnull.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-02-25 11:58:36.279 [main-59] INFO  com.abcnull.util.RedisUtil.initJedisPool - 开始初始化 redis 连接池
+2021-02-25 11:58:36.279 [main-67] ERROR com.abcnull.util.RedisUtil.initJedisPool - redis 连接池生成失败！
+2021-02-25 11:58:36.287 [main-91] ERROR com.abcnull.util.RedisUtil.initJedis - 从连接池中生成一个新的连接失败！
